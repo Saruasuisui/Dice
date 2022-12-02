@@ -1,0 +1,83 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: lightblue;
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  
+  margin: 30px;
+  text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green, 0 0 40px green;
+  font-size: 6rem;
+  font-weight: 500;
+  color: black;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+img {
+  width: 80%;
+  background-color:black;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {background-color: black;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+
+.myBtn {
+  margin: 30px;
+  width:100px;
+  height:50px;
+  border:1px solid yellow;
+  font-size:2rem;
+  border-radius:50%;
+  background-color: lightgreen;
+}
+
+footer {
+  margin-top: 5%;
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.myBtn:hover{
+  background-color: darkgreen;
+  cursor:grab;
+  width:150px;
+  height:100px;
+  
+
+}
+
+
+
